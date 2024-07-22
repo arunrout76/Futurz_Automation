@@ -1,0 +1,434 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "581cb1774169b64c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702899182455,
+      "stop" : 1702899263001,
+      "duration" : 80546
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "ab11369b20760e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702986244480,
+      "stop" : 1702986257349,
+      "duration" : 12869
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "1755ebbd47cc6b71",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702969350048,
+      "stop" : 1702969510265,
+      "duration" : 160217
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "660a351315dc05e0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1703315240209,
+      "stop" : 1703315341818,
+      "duration" : 101609
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "5789e285f39dd544",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702986079281,
+      "stop" : 1702986088548,
+      "duration" : 9267
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "f8f5fe88992978ea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702899436537,
+      "stop" : 1702899490532,
+      "duration" : 53995
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "98de0af006f285df",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1702901199950,
+      "stop" : 1702901244279,
+      "duration" : 44329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "c3776f9409fd661b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703416659137,
+      "stop" : 1703416747612,
+      "duration" : 88475
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "cf242aa192a3e2fb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1703315341821,
+      "stop" : 1703315429890,
+      "duration" : 88069
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "23757395d0096019",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702986097761,
+      "stop" : 1702986106929,
+      "duration" : 9168
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "1a94e033bd4b3911",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702986113222,
+      "stop" : 1702986153196,
+      "duration" : 39974
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "d3fff0bb94523a3b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702969195045,
+      "stop" : 1702969280249,
+      "duration" : 85204
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "6a3d28f8c17d23ba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702969280251,
+      "stop" : 1702969304446,
+      "duration" : 24195
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "d41b05db5fecc256",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702898820410,
+      "stop" : 1702898855497,
+      "duration" : 35087
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "ee86315d43c9a3a4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703053180536,
+      "stop" : 1703053211751,
+      "duration" : 31215
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "38fc25f3613f015c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703053055584,
+      "stop" : 1703053100613,
+      "duration" : 45029
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "b66814cc69117609",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1703053014379,
+      "stop" : 1703053023523,
+      "duration" : 9144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "652c9f60cbb8a8ed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702986032815,
+      "stop" : 1702986042024,
+      "duration" : 9209
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "fee72c60951cce21",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703053100617,
+      "stop" : 1703053180532,
+      "duration" : 79915
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "65ae22097263ee2d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702901244279,
+      "stop" : 1702901305560,
+      "duration" : 61281
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "31f5ab2ffa93d6be",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1703053023526,
+      "stop" : 1703053032687,
+      "duration" : 9161
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "c7fd0ac16b91a0e8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702986153204,
+      "stop" : 1702986244477,
+      "duration" : 91273
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "b0327785c1b9c6d4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702986051226,
+      "stop" : 1702986060426,
+      "duration" : 9200
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "3714f18d8608978f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702986088550,
+      "stop" : 1702986097757,
+      "duration" : 9207
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "69b4e897d0e7eef5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1702901305563,
+      "stop" : 1702901346468,
+      "duration" : 40905
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "1a19d280e1f9a8bc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1702899172694,
+      "stop" : 1702899182453,
+      "duration" : 9759
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "4fc86064ab539a5b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1703053005150,
+      "stop" : 1703053014377,
+      "duration" : 9227
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "2d326f0671648e86",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703416911648,
+      "stop" : 1703416945093,
+      "duration" : 33445
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "2bbc22a1383e9094",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702969150587,
+      "stop" : 1702969195045,
+      "duration" : 44458
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "19e4b7ee5bc12663",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703416747616,
+      "stop" : 1703416911647,
+      "duration" : 164031
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "b63381d13d8796bd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702986042039,
+      "stop" : 1702986051196,
+      "duration" : 9157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "76db8094ac03864c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1702986532549,
+      "stop" : 1702986570604,
+      "duration" : 38055
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Admin",
+    "uid" : "df5c7e7f2dd0ce15",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1702899274255,
+      "stop" : 1702899286067,
+      "duration" : 11812
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

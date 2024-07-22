@@ -1,0 +1,31 @@
+[ {
+  "uid" : "c3776f9409fd661b",
+  "name" : "Login as Admin",
+  "time" : {
+    "start" : 1703416659137,
+    "stop" : 1703416747612,
+    "duration" : 88475
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19e4b7ee5bc12663",
+  "name" : "Login as Instructor then start and End Session",
+  "time" : {
+    "start" : 1703416747616,
+    "stop" : 1703416911647,
+    "duration" : 164031
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2d326f0671648e86",
+  "name" : "Login as User then start and End Session",
+  "time" : {
+    "start" : 1703416911648,
+    "stop" : 1703416945093,
+    "duration" : 33445
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

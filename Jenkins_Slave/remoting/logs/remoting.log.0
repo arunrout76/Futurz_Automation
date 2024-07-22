@@ -1,0 +1,27 @@
+Jan 18, 2024 4:47:12 PM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: Docker
+Jan 18, 2024 4:47:12 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3107.v665000b_51092
+Jan 18, 2024 4:47:12 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using C:\Users\arun\OneDrive\Desktop\WizklubFuturz\Jenkins_Slave\remoting as a remoting work directory
+Jan 18, 2024 4:47:13 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Jan 18, 2024 4:47:13 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Jan 18, 2024 4:47:13 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    50000
+  Identity:      a0:07:c0:aa:3d:65:16:72:c0:6b:dc:b8:fb:6c:5d:ae
+Jan 18, 2024 4:47:13 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Jan 18, 2024 4:47:13 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:50000
+Jan 18, 2024 4:47:13 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Jan 18, 2024 4:47:13 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Jan 18, 2024 4:47:16 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: a0:07:c0:aa:3d:65:16:72:c0:6b:dc:b8:fb:6c:5d:ae
+Jan 18, 2024 4:47:16 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected

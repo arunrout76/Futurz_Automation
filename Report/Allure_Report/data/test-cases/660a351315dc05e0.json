@@ -1,0 +1,97 @@
+{
+  "uid" : "660a351315dc05e0",
+  "name" : "Login as Admin",
+  "fullName" : "Regular Flow Feature.: Login as Admin",
+  "historyId" : "57d0bc27aa44ce50c113669fa43d5fe1",
+  "time" : {
+    "start" : 1703315240209,
+    "stop" : 1703315341818,
+    "duration" : 101609
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given Reschedule the Batch from Username as \"arun01\" and Password as \"Arun@420\" and batch is \"a1ce37f9-24dc-4d3f-b87b-b9e755734d12\"",
+      "time" : {
+        "start" : 1703315341818,
+        "stop" : 1703315341818,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When The batch has been rescheduled for Now",
+      "time" : {
+        "start" : 1703315341818,
+        "stop" : 1703315341818,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then Rescheduled Successfully",
+      "time" : {
+        "start" : 1703315341818,
+        "stop" : 1703315341818,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Regular Flow Feature."
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "660a351315dc05e0.json",
+  "parameterValues" : [ ]
+}

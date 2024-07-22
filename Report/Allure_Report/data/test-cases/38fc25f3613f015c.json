@@ -1,0 +1,103 @@
+{
+  "uid" : "38fc25f3613f015c",
+  "name" : "Login as Admin",
+  "fullName" : "Regular Flow Feature.: Login as Admin",
+  "historyId" : "57d0bc27aa44ce50c113669fa43d5fe1",
+  "time" : {
+    "start" : 1703053055584,
+    "stop" : 1703053100613,
+    "duration" : 45029
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x5610c552b8f3 <unknown>\n#1 0x5610c5010a3f <unknown>\n#2 0x5610c50479ce <unknown>\n#3 0x5610c503b818 <unknown>\n#4 0x5610c5063e72 <unknown>\n#5 0x5610c503b593 <unknown>\n#6 0x5610c5063f7e <unknown>\n#7 0x5610c5076dac <unknown>\n#8 0x5610c5063d63 <unknown>\n#9 0x5610c503a144 <unknown>\n#10 0x5610c503b135 <unknown>\n#11 0x5610c555ac3e <unknown>\n#12 0x5610c55706b7 <unknown>\n#13 0x5610c555bb95 <unknown>\n#14 0x5610c5571b05 <unknown>\n#15 0x5610c55502ab <unknown>\n#16 0x5610c558c248 <unknown>\n#17 0x5610c558c3c8 <unknown>\n#18 0x5610c55a733d <unknown>\n#19 0x7f274df82609 start_thread\n\n",
+  "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 48, in reschedule\n    admin.confirm_reschedule(admin_locators.confirm_reschedule_btn)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\admin_page.py\", line 140, in confirm_reschedule\n    confirm_reschedule_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x5610c552b8f3 <unknown>\n#1 0x5610c5010a3f <unknown>\n#2 0x5610c50479ce <unknown>\n#3 0x5610c503b818 <unknown>\n#4 0x5610c5063e72 <unknown>\n#5 0x5610c503b593 <unknown>\n#6 0x5610c5063f7e <unknown>\n#7 0x5610c5076dac <unknown>\n#8 0x5610c5063d63 <unknown>\n#9 0x5610c503a144 <unknown>\n#10 0x5610c503b135 <unknown>\n#11 0x5610c555ac3e <unknown>\n#12 0x5610c55706b7 <unknown>\n#13 0x5610c555bb95 <unknown>\n#14 0x5610c5571b05 <unknown>\n#15 0x5610c55502ab <unknown>\n#16 0x5610c558c248 <unknown>\n#17 0x5610c558c3c8 <unknown>\n#18 0x5610c55a733d <unknown>\n#19 0x7f274df82609 start_thread\n\n",
+    "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 48, in reschedule\n    admin.confirm_reschedule(admin_locators.confirm_reschedule_btn)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\admin_page.py\", line 140, in confirm_reschedule\n    confirm_reschedule_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given Reschedule the Batch from Username as \"arun01\" and Password as \"Arun@420\" and batch is \"a1ce37f9-24dc-4d3f-b87b-b9e755734d12\"",
+      "time" : {
+        "start" : 1703053072983,
+        "stop" : 1703053100129,
+        "duration" : 27146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When The batch has been rescheduled for Now",
+      "time" : {
+        "start" : 1703053100129,
+        "stop" : 1703053100609,
+        "duration" : 480
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x5610c552b8f3 <unknown>\n#1 0x5610c5010a3f <unknown>\n#2 0x5610c50479ce <unknown>\n#3 0x5610c503b818 <unknown>\n#4 0x5610c5063e72 <unknown>\n#5 0x5610c503b593 <unknown>\n#6 0x5610c5063f7e <unknown>\n#7 0x5610c5076dac <unknown>\n#8 0x5610c5063d63 <unknown>\n#9 0x5610c503a144 <unknown>\n#10 0x5610c503b135 <unknown>\n#11 0x5610c555ac3e <unknown>\n#12 0x5610c55706b7 <unknown>\n#13 0x5610c555bb95 <unknown>\n#14 0x5610c5571b05 <unknown>\n#15 0x5610c55502ab <unknown>\n#16 0x5610c558c248 <unknown>\n#17 0x5610c558c3c8 <unknown>\n#18 0x5610c55a733d <unknown>\n#19 0x7f274df82609 start_thread\n\n",
+      "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 48, in reschedule\n    admin.confirm_reschedule(admin_locators.confirm_reschedule_btn)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\admin_page.py\", line 140, in confirm_reschedule\n    confirm_reschedule_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then Rescheduled Successfully",
+      "time" : {
+        "start" : 1703053100613,
+        "stop" : 1703053100613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Regular Flow Feature."
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38fc25f3613f015c.json",
+  "parameterValues" : [ ]
+}

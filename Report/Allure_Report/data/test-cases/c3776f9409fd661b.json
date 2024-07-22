@@ -1,0 +1,227 @@
+{
+  "uid" : "c3776f9409fd661b",
+  "name" : "Login as Admin",
+  "fullName" : "Regular Flow Feature.: Login as Admin",
+  "historyId" : "57d0bc27aa44ce50c113669fa43d5fe1",
+  "time" : {
+    "start" : 1703416659137,
+    "stop" : 1703416747612,
+    "duration" : 88475
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x555dc1bf08f3 <unknown>\n#1 0x555dc16d5a3f <unknown>\n#2 0x555dc170c9ce <unknown>\n#3 0x555dc1700818 <unknown>\n#4 0x555dc1728e72 <unknown>\n#5 0x555dc1700593 <unknown>\n#6 0x555dc1728f7e <unknown>\n#7 0x555dc173bdac <unknown>\n#8 0x555dc1728d63 <unknown>\n#9 0x555dc16ff144 <unknown>\n#10 0x555dc1700135 <unknown>\n#11 0x555dc1c1fc3e <unknown>\n#12 0x555dc1c356b7 <unknown>\n#13 0x555dc1c20b95 <unknown>\n#14 0x555dc1c36b05 <unknown>\n#15 0x555dc1c152ab <unknown>\n#16 0x555dc1c51248 <unknown>\n#17 0x555dc1c513c8 <unknown>\n#18 0x555dc1c6c33d <unknown>\n#19 0x7f6155b3f609 start_thread\n\n",
+  "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 48, in reschedule\n    admin.confirm_reschedule(admin_locators.confirm_reschedule_btn)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\admin_page.py\", line 140, in confirm_reschedule\n    confirm_reschedule_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x555dc1bf08f3 <unknown>\n#1 0x555dc16d5a3f <unknown>\n#2 0x555dc170c9ce <unknown>\n#3 0x555dc1700818 <unknown>\n#4 0x555dc1728e72 <unknown>\n#5 0x555dc1700593 <unknown>\n#6 0x555dc1728f7e <unknown>\n#7 0x555dc173bdac <unknown>\n#8 0x555dc1728d63 <unknown>\n#9 0x555dc16ff144 <unknown>\n#10 0x555dc1700135 <unknown>\n#11 0x555dc1c1fc3e <unknown>\n#12 0x555dc1c356b7 <unknown>\n#13 0x555dc1c20b95 <unknown>\n#14 0x555dc1c36b05 <unknown>\n#15 0x555dc1c152ab <unknown>\n#16 0x555dc1c51248 <unknown>\n#17 0x555dc1c513c8 <unknown>\n#18 0x555dc1c6c33d <unknown>\n#19 0x7f6155b3f609 start_thread\n\n",
+    "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 48, in reschedule\n    admin.confirm_reschedule(admin_locators.confirm_reschedule_btn)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\admin_page.py\", line 140, in confirm_reschedule\n    confirm_reschedule_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given Reschedule the Batch from Username as \"arun01\" and Password as \"Arun@420\" and batch is \"a1ce37f9-24dc-4d3f-b87b-b9e755734d12\"",
+      "time" : {
+        "start" : 1703416710122,
+        "stop" : 1703416737235,
+        "duration" : 27113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When The batch has been rescheduled for Now",
+      "time" : {
+        "start" : 1703416737235,
+        "stop" : 1703416747608,
+        "duration" : 10373
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x555dc1bf08f3 <unknown>\n#1 0x555dc16d5a3f <unknown>\n#2 0x555dc170c9ce <unknown>\n#3 0x555dc1700818 <unknown>\n#4 0x555dc1728e72 <unknown>\n#5 0x555dc1700593 <unknown>\n#6 0x555dc1728f7e <unknown>\n#7 0x555dc173bdac <unknown>\n#8 0x555dc1728d63 <unknown>\n#9 0x555dc16ff144 <unknown>\n#10 0x555dc1700135 <unknown>\n#11 0x555dc1c1fc3e <unknown>\n#12 0x555dc1c356b7 <unknown>\n#13 0x555dc1c20b95 <unknown>\n#14 0x555dc1c36b05 <unknown>\n#15 0x555dc1c152ab <unknown>\n#16 0x555dc1c51248 <unknown>\n#17 0x555dc1c513c8 <unknown>\n#18 0x555dc1c6c33d <unknown>\n#19 0x7f6155b3f609 start_thread\n\n",
+      "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 48, in reschedule\n    admin.confirm_reschedule(admin_locators.confirm_reschedule_btn)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\admin_page.py\", line 140, in confirm_reschedule\n    confirm_reschedule_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then Rescheduled Successfully",
+      "time" : {
+        "start" : 1703416747612,
+        "stop" : 1703416747612,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Regular Flow Feature."
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "660a351315dc05e0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1703315240209,
+        "stop" : 1703315341818,
+        "duration" : 101609
+      }
+    }, {
+      "uid" : "38fc25f3613f015c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x5610c552b8f3 <unknown>\n#1 0x5610c5010a3f <unknown>\n#2 0x5610c50479ce <unknown>\n#3 0x5610c503b818 <unknown>\n#4 0x5610c5063e72 <unknown>\n#5 0x5610c503b593 <unknown>\n#6 0x5610c5063f7e <unknown>\n#7 0x5610c5076dac <unknown>\n#8 0x5610c5063d63 <unknown>\n#9 0x5610c503a144 <unknown>\n#10 0x5610c503b135 <unknown>\n#11 0x5610c555ac3e <unknown>\n#12 0x5610c55706b7 <unknown>\n#13 0x5610c555bb95 <unknown>\n#14 0x5610c5571b05 <unknown>\n#15 0x5610c55502ab <unknown>\n#16 0x5610c558c248 <unknown>\n#17 0x5610c558c3c8 <unknown>\n#18 0x5610c55a733d <unknown>\n#19 0x7f274df82609 start_thread\n\n",
+      "time" : {
+        "start" : 1703053055584,
+        "stop" : 1703053100613,
+        "duration" : 45029
+      }
+    }, {
+      "uid" : "4fc86064ab539a5b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1703053005150,
+        "stop" : 1703053014377,
+        "duration" : 9227
+      }
+    }, {
+      "uid" : "76db8094ac03864c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x5606371108f3 <unknown>\n#1 0x560636bf5a3f <unknown>\n#2 0x560636c2c9ce <unknown>\n#3 0x560636c20818 <unknown>\n#4 0x560636c48e72 <unknown>\n#5 0x560636c20593 <unknown>\n#6 0x560636c48f7e <unknown>\n#7 0x560636c5bdac <unknown>\n#8 0x560636c48d63 <unknown>\n#9 0x560636c1f144 <unknown>\n#10 0x560636c20135 <unknown>\n#11 0x56063713fc3e <unknown>\n#12 0x5606371556b7 <unknown>\n#13 0x560637140b95 <unknown>\n#14 0x560637156b05 <unknown>\n#15 0x5606371352ab <unknown>\n#16 0x560637171248 <unknown>\n#17 0x5606371713c8 <unknown>\n#18 0x56063718c33d <unknown>\n#19 0x7f4e04afe609 start_thread\n\n",
+      "time" : {
+        "start" : 1702986532549,
+        "stop" : 1702986570604,
+        "duration" : 38055
+      }
+    }, {
+      "uid" : "1a94e033bd4b3911",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x56047bc478f3 <unknown>\n#1 0x56047b72ca3f <unknown>\n#2 0x56047b7639ce <unknown>\n#3 0x56047b757818 <unknown>\n#4 0x56047b77fe72 <unknown>\n#5 0x56047b757593 <unknown>\n#6 0x56047b77ff7e <unknown>\n#7 0x56047b792dac <unknown>\n#8 0x56047b77fd63 <unknown>\n#9 0x56047b756144 <unknown>\n#10 0x56047b757135 <unknown>\n#11 0x56047bc76c3e <unknown>\n#12 0x56047bc8c6b7 <unknown>\n#13 0x56047bc77b95 <unknown>\n#14 0x56047bc8db05 <unknown>\n#15 0x56047bc6c2ab <unknown>\n#16 0x56047bca8248 <unknown>\n#17 0x56047bca83c8 <unknown>\n#18 0x56047bcc333d <unknown>\n#19 0x7f0d6755b609 start_thread\n\n",
+      "time" : {
+        "start" : 1702986113222,
+        "stop" : 1702986153196,
+        "duration" : 39974
+      }
+    }, {
+      "uid" : "5789e285f39dd544",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1702986079281,
+        "stop" : 1702986088548,
+        "duration" : 9267
+      }
+    }, {
+      "uid" : "652c9f60cbb8a8ed",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1702986032815,
+        "stop" : 1702986042024,
+        "duration" : 9209
+      }
+    }, {
+      "uid" : "1755ebbd47cc6b71",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1702969350048,
+        "stop" : 1702969510265,
+        "duration" : 160217
+      }
+    }, {
+      "uid" : "2bbc22a1383e9094",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x55ce14c9c8f3 <unknown>\n#1 0x55ce14781a3f <unknown>\n#2 0x55ce147b89ce <unknown>\n#3 0x55ce147ac818 <unknown>\n#4 0x55ce147d4e72 <unknown>\n#5 0x55ce147ac593 <unknown>\n#6 0x55ce147d4f7e <unknown>\n#7 0x55ce147e7dac <unknown>\n#8 0x55ce147d4d63 <unknown>\n#9 0x55ce147ab144 <unknown>\n#10 0x55ce147ac135 <unknown>\n#11 0x55ce14ccbc3e <unknown>\n#12 0x55ce14ce16b7 <unknown>\n#13 0x55ce14cccb95 <unknown>\n#14 0x55ce14ce2b05 <unknown>\n#15 0x55ce14cc12ab <unknown>\n#16 0x55ce14cfd248 <unknown>\n#17 0x55ce14cfd3c8 <unknown>\n#18 0x55ce14d1833d <unknown>\n#19 0x7f3360109609 start_thread\n\n",
+      "time" : {
+        "start" : 1702969150587,
+        "stop" : 1702969195045,
+        "duration" : 44458
+      }
+    }, {
+      "uid" : "98de0af006f285df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702901199950,
+        "stop" : 1702901244279,
+        "duration" : 44329
+      }
+    }, {
+      "uid" : "f8f5fe88992978ea",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1702899436537,
+        "stop" : 1702899490532,
+        "duration" : 53995
+      }
+    }, {
+      "uid" : "df5c7e7f2dd0ce15",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1702899274255,
+        "stop" : 1702899286067,
+        "duration" : 11812
+      }
+    }, {
+      "uid" : "1a19d280e1f9a8bc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: configured wrong X-PATH. \n",
+      "time" : {
+        "start" : 1702899172694,
+        "stop" : 1702899182453,
+        "duration" : 9759
+      }
+    }, {
+      "uid" : "d41b05db5fecc256",
+      "status" : "broken",
+      "statusDetails" : "KeyboardInterrupt\n",
+      "time" : {
+        "start" : 1702898820410,
+        "stop" : 1702898855497,
+        "duration" : 35087
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c3776f9409fd661b.json",
+  "parameterValues" : [ ]
+}

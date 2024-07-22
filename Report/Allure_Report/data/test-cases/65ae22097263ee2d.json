@@ -1,0 +1,103 @@
+{
+  "uid" : "65ae22097263ee2d",
+  "name" : "Login as Instructor then start and End Session",
+  "fullName" : "Regular Flow Feature.: Login as Instructor then start and End Session",
+  "historyId" : "9693fb66fd60d2623653e08cf629e29d",
+  "time" : {
+    "start" : 1702901244279,
+    "stop" : 1702901305560,
+    "duration" : 61281
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x55a1647558f3 <unknown>\n#1 0x55a16423aba8 <unknown>\n#2 0x55a16423da2c <unknown>\n#3 0x55a16423d826 <unknown>\n#4 0x55a16423daec <unknown>\n#5 0x55a164272461 <unknown>\n#6 0x55a164265719 <unknown>\n#7 0x55a16428de72 <unknown>\n#8 0x55a164265593 <unknown>\n#9 0x55a16428df7e <unknown>\n#10 0x55a1642a0dac <unknown>\n#11 0x55a16428dd63 <unknown>\n#12 0x55a164264144 <unknown>\n#13 0x55a164265135 <unknown>\n#14 0x55a164784c3e <unknown>\n#15 0x55a16479a6b7 <unknown>\n#16 0x55a164785b95 <unknown>\n#17 0x55a16479bb05 <unknown>\n#18 0x55a16477a2ab <unknown>\n#19 0x55a1647b6248 <unknown>\n#20 0x55a1647b63c8 <unknown>\n#21 0x55a1647d133d <unknown>\n#22 0x7f5742984609 start_thread\n\n",
+  "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 79, in session_schedule\n    ins.ins_take_attend(instructor_locator.take_attend)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\instructor_page.py\", line 73, in ins_take_attend\n    take_attend_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x55a1647558f3 <unknown>\n#1 0x55a16423aba8 <unknown>\n#2 0x55a16423da2c <unknown>\n#3 0x55a16423d826 <unknown>\n#4 0x55a16423daec <unknown>\n#5 0x55a164272461 <unknown>\n#6 0x55a164265719 <unknown>\n#7 0x55a16428de72 <unknown>\n#8 0x55a164265593 <unknown>\n#9 0x55a16428df7e <unknown>\n#10 0x55a1642a0dac <unknown>\n#11 0x55a16428dd63 <unknown>\n#12 0x55a164264144 <unknown>\n#13 0x55a164265135 <unknown>\n#14 0x55a164784c3e <unknown>\n#15 0x55a16479a6b7 <unknown>\n#16 0x55a164785b95 <unknown>\n#17 0x55a16479bb05 <unknown>\n#18 0x55a16477a2ab <unknown>\n#19 0x55a1647b6248 <unknown>\n#20 0x55a1647b63c8 <unknown>\n#21 0x55a1647d133d <unknown>\n#22 0x7f5742984609 start_thread\n\n",
+    "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 79, in session_schedule\n    ins.ins_take_attend(instructor_locator.take_attend)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\instructor_page.py\", line 73, in ins_take_attend\n    take_attend_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given Reschedule the Batch from Instructor Username as \"aruninstructor5\" and Password as \"Aruninstructor@65868\"",
+      "time" : {
+        "start" : 1702901255546,
+        "stop" : 1702901288618,
+        "duration" : 33072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Start the Session",
+      "time" : {
+        "start" : 1702901288619,
+        "stop" : 1702901305552,
+        "duration" : 16933
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x55a1647558f3 <unknown>\n#1 0x55a16423aba8 <unknown>\n#2 0x55a16423da2c <unknown>\n#3 0x55a16423d826 <unknown>\n#4 0x55a16423daec <unknown>\n#5 0x55a164272461 <unknown>\n#6 0x55a164265719 <unknown>\n#7 0x55a16428de72 <unknown>\n#8 0x55a164265593 <unknown>\n#9 0x55a16428df7e <unknown>\n#10 0x55a1642a0dac <unknown>\n#11 0x55a16428dd63 <unknown>\n#12 0x55a164264144 <unknown>\n#13 0x55a164265135 <unknown>\n#14 0x55a164784c3e <unknown>\n#15 0x55a16479a6b7 <unknown>\n#16 0x55a164785b95 <unknown>\n#17 0x55a16479bb05 <unknown>\n#18 0x55a16477a2ab <unknown>\n#19 0x55a1647b6248 <unknown>\n#20 0x55a1647b63c8 <unknown>\n#21 0x55a1647d133d <unknown>\n#22 0x7f5742984609 start_thread\n\n",
+      "statusTrace" : "  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RegularScenario.py\", line 79, in session_schedule\n    ins.ins_take_attend(instructor_locator.take_attend)\n  File \"C:\\Users\\arun\\OneDrive\\Desktop\\WizklubFuturz\\pages\\instructor_page.py\", line 73, in ins_take_attend\n    take_attend_element.click()\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 404, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\arun\\PycharmProjects\\WizklubFuturz\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then Take Attendance",
+      "time" : {
+        "start" : 1702901305560,
+        "stop" : 1702901305560,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Regular Flow Feature."
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65ae22097263ee2d.json",
+  "parameterValues" : [ ]
+}

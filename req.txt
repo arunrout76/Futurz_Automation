@@ -1,0 +1,13 @@
+
+Selenium 4.8.3
+
+behave 1.2.6
+
+Install Globally
+Allure-Report Link
+https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.2/
+
+Install in Venv
+Version(2.13.2)
+pip install allure-behave
+

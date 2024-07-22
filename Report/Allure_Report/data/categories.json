@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x555dc1bf08f3 <unknown>\n#1 0x555dc16d5a3f <unknown>\n#2 0x555dc170c9ce <unknown>\n#3 0x555dc1700818 <unknown>\n#4 0x555dc1728e72 <unknown>\n#5 0x555dc1700593 <unknown>\n#6 0x555dc1728f7e <unknown>\n#7 0x555dc173bdac <unknown>\n#8 0x555dc1728d63 <unknown>\n#9 0x555dc16ff144 <unknown>\n#10 0x555dc1700135 <unknown>\n#11 0x555dc1c1fc3e <unknown>\n#12 0x555dc1c356b7 <unknown>\n#13 0x555dc1c20b95 <unknown>\n#14 0x555dc1c36b05 <unknown>\n#15 0x555dc1c152ab <unknown>\n#16 0x555dc1c51248 <unknown>\n#17 0x555dc1c513c8 <unknown>\n#18 0x555dc1c6c33d <unknown>\n#19 0x7f6155b3f609 start_thread\n\n",
+      "children" : [ {
+        "name" : "Login as Admin",
+        "uid" : "c3776f9409fd661b",
+        "parentUid" : "7ee675886331506eee6d37c68119b4b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703416659137,
+          "stop" : 1703416747612,
+          "duration" : 88475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ee675886331506eee6d37c68119b4b1"
+    }, {
+      "name" : "IndexError: list index out of range\n",
+      "children" : [ {
+        "name" : "Login as Instructor then start and End Session",
+        "uid" : "19e4b7ee5bc12663",
+        "parentUid" : "e15305a3e914a770dec6f271ebf1696f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703416747616,
+          "stop" : 1703416911647,
+          "duration" : 164031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login as User then start and End Session",
+        "uid" : "2d326f0671648e86",
+        "parentUid" : "e15305a3e914a770dec6f271ebf1696f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1703416911648,
+          "stop" : 1703416945093,
+          "duration" : 33445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e15305a3e914a770dec6f271ebf1696f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

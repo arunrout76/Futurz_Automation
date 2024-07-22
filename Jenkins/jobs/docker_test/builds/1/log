@@ -1,0 +1,11 @@
+Started by user [8mha:////4LJDCw02ei5NtKWEfhl0dTIWroN8fb0X7Om6FTPQ39+IAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mkanha
+Running as SYSTEM
+Building remotely on [8mha:////4CJqX1WhVa5HHumQMXXVOQxh0DG4EXhBfWZggKSTcV1GAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQifZf85OzUIgB/U539xQAAAA==[0mDocker in workspace C:\Users\arun\OneDrive\Desktop\WizklubFuturz\Jenkins_Slave\workspace\docker_test
+[docker_test] $ cmd /c call C:\Users\arun\AppData\Local\Temp\jenkins10824837241718955950.bat
+
+C:\Users\arun\OneDrive\Desktop\WizklubFuturz\Jenkins_Slave\workspace\docker_test>docker ps -a 
+CONTAINER ID   IMAGE                    COMMAND                  CREATED       STATUS       PORTS                                              NAMES
+4e6c451506a9   jenkins/jenkins:latest   "/usr/bin/tini -- /u…"   2 hours ago   Up 2 hours   0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   quirky_stonebraker
+
+C:\Users\arun\OneDrive\Desktop\WizklubFuturz\Jenkins_Slave\workspace\docker_test>exit 0 
+Finished: SUCCESS

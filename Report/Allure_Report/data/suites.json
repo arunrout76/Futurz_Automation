@@ -1,0 +1,44 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login as Admin",
+    "uid" : "c3776f9409fd661b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703416659137,
+      "stop" : 1703416747612,
+      "duration" : 88475
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as Instructor then start and End Session",
+    "uid" : "19e4b7ee5bc12663",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703416747616,
+      "stop" : 1703416911647,
+      "duration" : 164031
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login as User then start and End Session",
+    "uid" : "2d326f0671648e86",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1703416911648,
+      "stop" : 1703416945093,
+      "duration" : 33445
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

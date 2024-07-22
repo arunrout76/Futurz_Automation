@@ -1,0 +1,42 @@
+{
+  "uid" : "f8f5fe88992978ea",
+  "name" : "Login as Admin",
+  "fullName" : "Regular Flow Feature.: Login as Admin",
+  "historyId" : "57d0bc27aa44ce50c113669fa43d5fe1",
+  "time" : {
+    "start" : 1702899436537,
+    "stop" : 1702899490532,
+    "duration" : 53995
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Regular Flow Feature."
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8f5fe88992978ea.json",
+  "parameterValues" : [ ]
+}

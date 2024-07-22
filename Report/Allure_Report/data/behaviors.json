@@ -1,0 +1,48 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regular Flow Feature.",
+    "children" : [ {
+      "name" : "Login as Admin",
+      "uid" : "c3776f9409fd661b",
+      "parentUid" : "01b49a4b8f9706ef16eba4ae729ae2d5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1703416659137,
+        "stop" : 1703416747612,
+        "duration" : 88475
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login as Instructor then start and End Session",
+      "uid" : "19e4b7ee5bc12663",
+      "parentUid" : "01b49a4b8f9706ef16eba4ae729ae2d5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1703416747616,
+        "stop" : 1703416911647,
+        "duration" : 164031
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login as User then start and End Session",
+      "uid" : "2d326f0671648e86",
+      "parentUid" : "01b49a4b8f9706ef16eba4ae729ae2d5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1703416911648,
+        "stop" : 1703416945093,
+        "duration" : 33445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "01b49a4b8f9706ef16eba4ae729ae2d5"
+  } ]
+}

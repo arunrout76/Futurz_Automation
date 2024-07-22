@@ -1,0 +1,62 @@
+{
+  "9693fb66fd60d2623653e08cf629e29d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19e4b7ee5bc12663",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range\n",
+      "time" : {
+        "start" : 1703416747616,
+        "stop" : 1703416911647,
+        "duration" : 164031
+      }
+    } ]
+  },
+  "57d0bc27aa44ce50c113669fa43d5fe1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3776f9409fd661b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=94.0.4606.61)\nStacktrace:\n#0 0x555dc1bf08f3 <unknown>\n#1 0x555dc16d5a3f <unknown>\n#2 0x555dc170c9ce <unknown>\n#3 0x555dc1700818 <unknown>\n#4 0x555dc1728e72 <unknown>\n#5 0x555dc1700593 <unknown>\n#6 0x555dc1728f7e <unknown>\n#7 0x555dc173bdac <unknown>\n#8 0x555dc1728d63 <unknown>\n#9 0x555dc16ff144 <unknown>\n#10 0x555dc1700135 <unknown>\n#11 0x555dc1c1fc3e <unknown>\n#12 0x555dc1c356b7 <unknown>\n#13 0x555dc1c20b95 <unknown>\n#14 0x555dc1c36b05 <unknown>\n#15 0x555dc1c152ab <unknown>\n#16 0x555dc1c51248 <unknown>\n#17 0x555dc1c513c8 <unknown>\n#18 0x555dc1c6c33d <unknown>\n#19 0x7f6155b3f609 start_thread\n\n",
+      "time" : {
+        "start" : 1703416659137,
+        "stop" : 1703416747612,
+        "duration" : 88475
+      }
+    } ]
+  },
+  "aafa5ddc2c952f516533b67613460d6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d326f0671648e86",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range\n",
+      "time" : {
+        "start" : 1703416911648,
+        "stop" : 1703416945093,
+        "duration" : 33445
+      }
+    } ]
+  }
+}

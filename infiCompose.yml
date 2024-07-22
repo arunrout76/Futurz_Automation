@@ -1,0 +1,105 @@
+  version: "4"
+  services:
+    HubService:
+      image: selenium/hub:4.0.0-rc-2-20210930
+      container_name: HubService
+      hostname: HubService
+      domainname: HubService
+      # environment:
+      #   - HUB_HOST=HubService:4444
+      # hostname: arun
+      ports:
+        - "4444:4444"
+        - "4442:4442"
+        - "4443:4443"
+      networks:
+        - Futurz_Networks
+
+    ChromeService:
+      image: selenium/node-chrome:4.0.0-rc-2-20210930
+      container_name: selenium-node-chrome
+      shm_size: "2gb"
+      ports:
+        - "5900"
+        - "7900"
+      environment:
+        - HUB_HOST= HubService
+        - SE_EVENT_BUS_HOST=HubService
+        - SE_EVENT_BUS_PUBLISH_PORT=4442
+        - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+        - SE_NODE_MAX_SESSIONS=3
+      depends_on:
+        - HubService
+      networks:
+        - Futurz_Networks
+
+  # networks:
+  #   Futurz_Networks:
+  #     driver: bridge
+
+    # wizklub-module:
+    #   image: arunrout1005/futurz
+    #   container_name: Futurz
+    #   # ports:
+    #   #   - "8080:80"
+    #   #   - "8443:443"
+    #   depends_on:
+    #     - ChromeService
+    #   environment:
+    #     - HUB_HOST=HubService
+    #     - BROWSWER=chrome
+      
+    #   # # restart: always
+    #   networks:
+    #     - Futurz_Networks
+    #   volumes:
+    #     - ./pages:/app/Futurz/pages
+
+        
+  networks:
+    Futurz_Networks:
+      driver: bridge
+
+
+    
+
+
+
+  # FirefoxService:
+  #   image: selenium/node-firefox:4.0.0-rc-2-20210930
+  #   shm_size: "2gb"
+  #   ports:
+  #     - "5900"
+  #     - "7900"
+  #   environment:
+  #     - SE_EVENT_BUS_HOST=seleniumHub
+  #     - SE_EVENT_BUS_PUBLISH_PORT=4442
+  #     - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+  #     - SE_NODE_MAX_SESSIONS=2
+  #   depends_on:
+  #     - HubService
+
+  # EdgeService:
+  #   image: selenium/node-edge:4.0.0-rc-2-20210930
+  #   shm_size: "2gb"
+  #   ports:
+  #     - "5900"
+  #     - "7900"
+  #   environment:
+  #     - SE_EVENT_BUS_HOST=seleniumHub
+  #     - SE_EVENT_BUS_PUBLISH_PORT=4442
+  #     - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+  #     - SE_NODE_MAX_SESSIONS=2
+  #   depends_on:
+  #     - HubService
+  # wizklub-module:
+  #       image: arunrout/wizklub
+  #       depends_on:
+  #         - ChromeService
+  #       environment:
+  #           - MODULE=testng.xml
+  #           - HUB_HOST=seleniumHub
+  #           - BROWSWER=chrome
+
+  #       volumes:
+  #           - ./output:/Users/arun/OneDrive/Desktop/selenium_jar
